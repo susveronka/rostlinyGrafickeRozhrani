@@ -14,7 +14,7 @@ public class RostlinyFrame extends JFrame {
 
     private void initComponents(){
         setContentPane(panel);
-        setTitle("Rostliny");
+        setTitle("Seznam rostlin v botanické zahradě");
         setSize(800,600);
         previous.addActionListener(e -> predchozi());
         next.addActionListener(e-> dalsi());
